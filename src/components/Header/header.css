@@ -17,7 +17,7 @@
     cursor: pointer;
 }
 .category span:hover {
-    border-bottom: solid rgb(224, 118, 136)
+    border-bottom: solid pink
 }
 
 ::placeholder {
