@@ -1,0 +1,31 @@
+.card{
+    width: 100%;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    
+}
+.card p{
+    margin: 0;
+}
+.card-img{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.cut{
+    text-decoration: line-through;
+    font-size: 15px;
+}
+.card-title{
+    font-size: 17px;
+    
+    
+}

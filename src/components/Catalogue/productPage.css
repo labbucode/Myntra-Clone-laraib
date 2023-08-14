@@ -1,0 +1,140 @@
+.product-page{
+    
+    padding: 8%;
+    padding-top: 110px;
+    padding-bottom: 3%;
+    
+    display: flex;
+}
+.product-img{
+   display: grid;
+   grid-gap: 5px;
+   grid-template-columns: 1fr 1fr;
+   width: 100vh;
+   height: auto;
+   
+}
+.product-img img{
+    width: 100%;
+}
+.product-details{
+    width: 80vh;
+    height: auto;
+    padding-left: 2%;
+}
+.product-details .des{
+    margin-top: 2px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    font-size: 18px;
+}
+.size-button button{
+    margin: 2% 2% 2% 0;
+    width: 50px;
+    padding: 14px;
+    border-radius: 50px;
+    border: 2px solid grey;
+    background-color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+.size-button button:hover{
+    border: 2px solid #d61b60;
+    
+    
+}
+.size-button button.selected{
+    border: 2px solid #d61b60;
+    color: #d61b60;
+}
+.shake{
+    animation: shake 0.5s;
+}
+
+@keyframes shake{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-10px) ;
+    }
+    50%{
+        transform: translateX(10px);
+    }
+    75%{
+        transform: translateX(-10px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+
+}
+.bag-wish-button{
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    
+}
+.bag-wish-button button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 60px;
+    margin-right: 10px;
+    background-color: #fd3e6c;
+    border-radius: 4px;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+}
+.delivery{
+    font-size: 15px;
+    font-weight: bold;
+}
+.delivery div{
+    display: flex;
+    align-items: center;
+}
+.delivery img{
+    width: 35px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.offers div{
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.offers p{
+    font-size: 15px;
+}
+.offers ul{
+    font-size: 15px;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+    .product-page {
+      flex-direction: column;
+    }
+  
+    .product-img {
+      width: 350px;
+    }
+  
+    .product-details {
+      width: 100%;
+      padding-left: 0;
+      margin-top: 20px;
+    }
+    .bag-wish-button button{
+        width: 100px;
+        height: 70px;
+    }
+  }

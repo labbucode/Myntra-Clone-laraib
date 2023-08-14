@@ -1,0 +1,85 @@
+.checkout{
+    padding-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-container {
+    width: 50vh;
+    padding: 20px;
+  }
+  
+  .payment-heading {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  
+  input {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-btn {
+    background-color: #FF3F6C;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .submit-btn:hover {
+    background-color: #ff4974;
+  }
+
+  .loading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12%;
+  }
+
+  .payment-successful{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
+  }
+  .payment-successful img{
+    width: 300px;
+  }
+  .payment-successful div{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .payment-successful p{
+    font-size: 18px;
+  }
+  .payment-successful button{
+    width: 170px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    background: #ff4974;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+  }

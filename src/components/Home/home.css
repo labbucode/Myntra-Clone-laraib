@@ -1,0 +1,39 @@
+.budget-buy-container,.top-brands-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);   
+}
+.budget-buy, .top-brands{
+    margin: 25px;
+    width: 250px;
+    cursor: pointer;
+}
+.mega-deals-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.mega-deals{
+    margin: 25px;
+    margin-left: 40px;
+    width: 350px;
+    cursor: pointer;
+}
+/* Responsive Styles */
+
+@media (max-width: 1200px) {
+    .budget-buy,
+    .top-brands,
+    .mega-deals {
+      width: 100%;
+      margin: 15px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .budget-buy-container,
+    .top-brands-container,
+    .mega-deals-container {
+      grid-template-columns: repeat(2, 2fr);
+      grid-gap: 40px;
+      width:400px;
+    }
+  }
